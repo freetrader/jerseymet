@@ -1,4 +1,8 @@
 Jerseymet::Application.routes.draw do
+  get "pages/home"
+  root :to => 'pages#home'
+
+ #not uploaded to git hub. 
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
